@@ -1,4 +1,54 @@
 * {
   font-family: "Museo Sans Cyrl"; }
 
+.promo {
+  height: 650px;
+  background: url("../img/RunSmartHeader/header_bg.png") center center/cover no-repeat;
+  padding: 21px 0 93px 0; }
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header_official {
+    font-size: 0px;
+    font-weight: 500;
+    color: #ffffff; }
+  .header span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff; }
+
+.choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 90px; }
+  .choose .h1 {
+    margin-bottom: 0;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .choose .h2 {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff; }
+
 /*# sourceMappingURL=style.css.map */
