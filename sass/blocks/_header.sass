@@ -2,11 +2,28 @@
     display: flex 
     justify-content: space-between 
     align-items: center
-    &_official 
-        font-size: 0px
+    &__official 
+        font-size: 12px
         font-weight: 500
-        color: #ffffff
+        text-align: center
+        color: rgba(255, 255, 255, 0.9)
     span 
+        display: block
+        text-align: center
         font-size: 18px
         font-weight: 700
         color: #ffffff
+    &__phone 
+        color: #ffffff
+        font-weight: 700
+        font-size: 18px
+        text-decoration: none
+        &:hover
+            text-decoration: none
+            color: #ffffff
+    &__contacts 
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+
+            
