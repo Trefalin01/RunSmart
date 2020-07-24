@@ -1,5 +1,94 @@
 .promo
-    height: 650px
+    min-height: 650px
     background: url('../img/RunSmartHeader/header_bg.png') center (center/cover) no-repeat
     padding: 21px 0 93px 0
+
+    .choose
+        display: flex
+        align-items: flex-end
+        flex-direction: column
+        margin-top: 90px
+        &__header 
+            margin-bottom: 0
+            font-size: 42px
+            font-weight: 500
+            text-transform: uppercase
+            color: #ffffff
+        &__subheader
+            margin-bottom: 0
+            margin-top: 15px
+            font-size: 24px
+            font-weight: 300
+            text-transform: uppercase
+            color: #ffffff
+
+    .plus 
+        display: flex
+        justify-content: flex-end
+        align-items: flex-end
+        margin-top: 70px
+        &__time
+            font-size: 13px
+            font-weight: 500
+            color: #ffffff
+            margin-left: 70px
+            width: 106px
+            text-align: center
+            &::before
+                content: ''
+                background: url('../icons/choose_icons/timer.png')
+                display: block
+                margin: 0 auto
+                margin-bottom: 20px
+                width: 42px
+                height: 46px
+        &__free
+            font-size: 13px
+            font-weight: 500
+            color: #ffffff
+            margin-left: 70px
+            width: 75px
+            text-align: center
+            &::before
+                content: ''
+                background: url('../icons/choose_icons/hand_cart.png') center (center/cover) no-repeat
+                display: block
+                margin: 0 auto
+                margin-bottom: 20px
+                width: 42px
+                height: 46px
+        &__feedback
+            font-size: 13px
+            font-weight: 500
+            color: #ffffff
+            margin-left: 70px
+            text-align: center
+            width: 103px
+            &::before
+                content: ''
+                background: url('../icons/choose_icons/messages.png') center (center/cover) no-repeat
+                display: block
+                margin: 0 auto
+                margin-bottom: 20px
+                width: 45px
+                height: 42px
     
+    .order
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        color: #ffffff
+        font-size: 16px
+        font-weight: 300
+        margin-top: 50px
+        &__where
+            margin-top: 20px
+        &__link
+            color: #ffffff
+            text-transform: uppercase
+            text-decoration: none
+            font-weight: 500
+            &:hover
+                color: #ffffff
+                font-weight: 500
+                text-decoration: underline
