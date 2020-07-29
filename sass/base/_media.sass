@@ -1,0 +1,96 @@
+@media ( max-width: 980px )
+    .advantages__elements
+
+        .experience
+            width: 205px 
+        .health 
+            width: 205px
+        .running 
+            width: 205px
+    .application 
+        padding-top: 90px 
+        &__dscrp
+            margin-top: 60px
+
+@media  ( max-width: 767px )
+    .header_container 
+        display: contents
+        .header 
+            padding: 0 20px 0 20px 
+            .button
+                &:hover
+                    box-shadow: none
+            &__phone 
+                font-size: 16px
+    .order__btn 
+        &:hover
+            box-shadow: none
+    .advantages
+        &__elements 
+            flex-direction: column
+            align-items: center
+            margin-top: 70px
+            .experience 
+                width: 245px
+                &__header 
+                    margin-bottom: 20px
+                &::before
+                    margin-bottom: 20px
+            .health 
+                width: 235px 
+                &::before
+                    margin-bottom: 20px
+                    margin-top: 30px
+            .running 
+                width: 235px 
+                &::before
+                    margin-top: 30px
+                    margin-bottom: 20px
+    .application 
+        &__header 
+            font-size: 23px
+        &__dscrp
+            font-size: 19px
+        &__form 
+            margin-top: 25px
+            &__btn
+                &:hover
+                    box-shadow: none
+
+@media  ( max-width: 638px )
+
+    .promo
+        padding-bottom: 20px
+        .header
+            justify-content: space-around
+            &__official
+                display: none
+        .choose
+            margin-top: 70px
+            &__header
+                font-size: 39px
+            &__subheader 
+                font-size: 20px 
+        .plus
+            margin-top: 50px
+        .order
+            &__btn 
+                width: 250px
+            &__where 
+                margin-top: 10px
+        .md600
+            display: flex
+            flex-direction: column
+            align-items: flex-end
+            margin-top: 20px
+            font-size: 12px
+            font-weight: 500
+            color: rgba(255, 255, 255, 0.9)
+            span 
+                color: #ffffff
+                text-transform: uppercase
+    @media  ( max-width: 507px )
+        .promo 
+            .plus__time 
+                width: 120px
+                margin-left: 10px
