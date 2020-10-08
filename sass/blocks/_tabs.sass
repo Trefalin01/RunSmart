@@ -1,0 +1,44 @@
+.tabs
+    margin-top: 150px
+    &__header
+        text-align: center
+        font-size: 30px
+        font-weight: 500
+        text-transform: uppercase
+    &__nav
+        height: 60px
+        width: 750px
+        margin: 0 auto
+        margin-top: 50px
+        display: flex
+        justify-content: space-between
+        font-size: 24px
+        font-weight: 300
+        color: #111111
+        .tabs-nav__item
+            border-bottom: 1px solid transparent
+            cursor: pointer
+            flex: 1
+            margin: 7px
+            padding: 10px
+            color: #95969a
+            text-align: center
+            text-transform: uppercase
+            font-size: 18px
+            font-weight: 500
+            border: 1px solid #95969a
+            transform: skewX(-15deg)
+        .is-active
+            border-color: transparent
+            color: #f2f2f2
+            background-color: #c70101
+            text-align: center
+
+    &__con
+        .tabs__content
+            display: none
+            font-size: 24px
+            font-weight: 300
+            background-color: #f2f2f2
+        .is-active
+            display: flex
