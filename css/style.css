@@ -4,6 +4,28 @@
   padding: 0;
   box-sizing: border-box; }
 
+@-webkit-keyframes animation-left {
+  0% {
+    top: 70px;
+    left: -820px; }
+  40% {
+    left: -420px; }
+  100% {
+    left: 0px; } }
+
+@keyframes animation-left {
+  0% {
+    top: 70px;
+    left: -820px; }
+  40% {
+    left: -420px; }
+  100% {
+    left: 0px; } }
+._active {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px); }
+
 .promo {
   min-height: 650px;
   background: url("../img/RunSmartHeader/header_bg.png") center center/cover no-repeat;
@@ -231,12 +253,24 @@
 .application {
   min-height: 680px;
   background: url("../img/Application_bg/bg.png") center center/cover no-repeat;
-  padding: 100px 0 92px 0; }
+  padding: 100px 0 92px 0;
+  position: relative; }
   .application__header {
     font-weight: 700;
     font-size: 36px;
     text-transform: uppercase;
-    color: #ffffff; }
+    color: #ffffff;
+    position: absolute;
+    top: 70px;
+    left: -820px; }
+  .application__animation-left {
+    position: relative;
+    -webkit-animation-name: animation-left;
+            animation-name: animation-left;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-duration: 0.2s;
+            animation-duration: 0.2s; }
   .application__dscrp {
     margin-top: 90px;
     font-weight: normal;

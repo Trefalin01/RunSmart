@@ -1,14 +1,23 @@
 .application
     min-height: 680px
-    background: url('../img/Application_bg/bg.png') center (center/cover) no-repeat 
+    background: url('../img/Application_bg/bg.png') center (center/cover) no-repeat
     padding: 100px 0 92px 0
+    position: relative
     &__header
         font-weight: 700
         font-size: 36px
         text-transform: uppercase
         color: #ffffff
+        position: absolute
+        top: 70px
+        left: -820px
+    &__animation-left
+        position: relative
+        animation-name: animation-left
+        animation-fill-mode: forwards
+        animation-duration: 0.2s
     &__dscrp
         margin-top: 90px
-        font-weight: normal 
-        font-size: 20px 
+        font-weight: normal
+        font-size: 20px
         color: #ffffff
