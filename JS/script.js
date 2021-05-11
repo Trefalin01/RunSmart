@@ -54,23 +54,8 @@ let tab = function () {
 };
 
 tab();
+<<<<<<< HEAD
+=======
 
-function getArray(num) {
-  let num2 = [];
-  for (let i = 1; i <= num; i++) {
-    num2.push(i);
-  }
-  console.log(num2);
-}
-getArray(15);
 
-function doubleArray(arr) {
-  console.log(arr.concat(arr));
-}
-doubleArray([1, 3, 5, 6, 7, 8, 13]);
-
-function changeArr(allArr) {
-  // allArr.slice(0, 1);
-  console.log(allArr);
-}
-changeArr([1, 2, 3], ["a", "b", "c"]);
+>>>>>>> c267bb98670e2bdade69d9dffd93fb42c7d6d659
