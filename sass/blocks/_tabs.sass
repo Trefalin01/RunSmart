@@ -37,8 +37,123 @@
     &__con
         .tabs__content
             display: none
-            font-size: 24px
-            font-weight: 300
-            background-color: #f2f2f2
         .is-active
             display: flex
+.tabs-container
+    width: 100%
+    display: flex
+    justify-content: space-around
+    align-items: center
+    flex-wrap: wrap
+.tabs-content_item
+    margin-top: 10px
+    display: flex
+    border: 2px solid #E8E8E8
+    width: 303px
+    height: 442px
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    vertical-align: middle
+.content-item_name
+    font-size: 16px
+    font-weight: 700
+    line-height: 25px
+    letter-spacing: 0px
+.content-item_dscrp
+    text-align: center
+    font-size: 14px
+    font-weight: 300
+    line-height: 22px
+    letter-spacing: 0px
+.content-item_more
+    border: none
+    background: none
+    font-size: 14px
+    font-weight: 500
+    text-transform: uppercase
+    line-height: 15px
+    letter-spacing: 0px
+    color: #C70101
+    display: block
+    margin: 0 auto
+    
+    &:hover
+        text-decoration: underline 1px 
+        text-underline-position: under
+        cursor: pointer
+.content-item_hr
+    margin-top: 20px
+    height: 2px
+    width: 90%
+    background: #E8E8E8
+.content-item_buy
+    display: flex
+    margin-top: 20px
+    align-items: inherit
+
+.buy-price
+    display: flex
+    flex-direction: column
+.buy-price_actual
+    font-size: 20px
+    font-weight: bold
+    line-height: 20px
+    letter-spacing: 0px
+.buy-price_discount
+    font-size: 14px
+    font-weight: 300
+    line-height: 14px
+    letter-spacing: 0px
+    color: #555555
+    text-decoration: line-through 1px #555555
+
+
+.content-item_about
+    text-align: center
+.content-item_about .is-active
+.buy-btn
+    margin-left: 10px
+    width: 135px
+    height: 44px
+    border: none
+    color: #ffff
+    border-radius: 5px
+    background: #C70101
+    &:hover
+        cursor: pointer
+
+//Hidden blocks
+.content-item_hidden
+    opacity: 0
+    visibility: hidden
+    display: none
+    transition: 0.3s all
+    height: 320px
+.content-item_hidden.is-active
+    opacity: 1
+    visibility: visible
+    display: block
+    transition: 0.3s all
+.hidden-dscrp 
+    list-style: none
+.hidden-dscrp_item
+    margin-top: 10px
+    width: 251px
+    position: relative
+    text-align: left
+    font-size: 14px
+    font-weight: 300
+    line-height: 21px
+    letter-spacing: 0px
+    color: #555555
+    &::before
+        content: ""
+        position: absolute
+        width: 7px
+        height: 7px
+        left: -10px
+        top: 5px
+        background: #C70101
+
+
